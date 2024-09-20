@@ -1,0 +1,169 @@
+*{
+    left: 120px;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;
+    color: #222
+}
+
+section{
+ padding: calc(24px +(121-24)*((100vw-375px)/(1200 - 375)));
+}
+
+section.hello{
+  padding-top: 40px;
+  background-image: url(../img/html_css_js\ 1.png);
+  background-repeat: no-repeat;
+  background-position: top 20px right 40px;
+  background-size: 27%;
+}
+
+.logo{
+    height: calc(30px +(41-30)*((100vw-375px)/(1200 - 375)));
+}
+
+.courseInfo{
+    font-size: 21px;
+    line-height: 140%;
+    display: flex;
+    gap: 30px 160px;
+
+    flex-wrap: wrap;
+    margin-top:calc(28px +(85-28)*((100vw-375px)/(1200 - 375)));
+    margin-bottom: calc(48px +(76-48)*((100vw-375px)/(1200 - 375)));
+}
+
+.courseInfo .value{
+    font-weight: 700;
+}
+
+.courseData{
+    font-size: 21px;
+    line-height: 140%;
+    display: flex;
+  gap: 30px 160px;
+  flex-wrap: wrap;
+  margin-top:calc(28px +(85-28)*((100vw-375px)/(1200 - 375)));
+  margin-bottom: calc(48px +(76-48)*((100vw-375px)/(1200 - 375)));
+  
+}
+
+.courseData .value{
+    font-weight: 700;
+}
+
+h1{
+    font-family: 'Chava', sans-serif;
+    font-size: 80px;
+    line-height: 110%;
+    left: 112px;
+}
+
+p {
+font-size: 27px;
+font-weight: 300;
+line-height: 37.8px;
+text-align: left;
+
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.cta {
+   margin-top: 20px;
+   display: flex;
+   gap: 20px 30px;
+   flex-wrap: wrap; 
+}
+
+button {
+    width: 320px;
+    padding: 20px 0px;
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: #6E3ABA;
+}
+
+button.white {
+    
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+h2{
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+left: 120px;
+}
+
+.Memoji{
+    width: 210px;
+height: 210px;
+}
+
+h3{
+    width: 420px;
+    height: 38px;
+
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+    
+}
+
+.caption{
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+
+    width: 450px;
+    height: 228px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.backend{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+   gap: 20px 30px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   
+}
+
+.newprofession{
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+   gap: 20px 30px;
+   flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.h3{
+    width: 420px;
+    height: 38px;
+
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+    text-align: left;
+}
+
+
+
